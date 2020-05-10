@@ -1,7 +1,7 @@
 .why {
     text-align: center;
     background: var(--gray);
-    padding-top: 5em;
+    padding: 5em 0;
     .copy {
         margin-bottom: 4em;
     }
@@ -9,7 +9,6 @@
     &__item {
         .copy {
             margin-bottom: 2em;
-            display: inline-block;
         }
         img {
             margin-bottom: 1.5em;
