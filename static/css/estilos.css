@@ -1,6 +1,149 @@
+.header {
+  display: flex;
+  padding: 1.2em 1.5em;
+  justify-content: space-between;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 5em;
+}
+.hero .copy {
+  margin-bottom: 2em;
+}
+.hero__image {
+  height: 300px;
+  margin: 0 calc(-1 * var(--wrapperSpace));
+  margin: 0 -1.5em;
+  background: url("../../static/images/image-mockups.png") center bottom no-repeat, url("../../static/images/bg-intro-mobile.svg") center no-repeat;
+  background-size: 345px, cover;
+  margin-bottom: 1em;
+}
+
+.menu {
+  width: 40px;
+  background: url(../../static/images/icon-hamburger.svg) no-repeat center;
+}
+
+.why {
+  text-align: center;
+  background: var(--gray);
+  padding-top: 5em;
+}
+.why .copy {
+  margin-bottom: 4em;
+}
+.why__item .copy {
+  margin-bottom: 2em;
+  display: inline-block;
+}
+.why__item img {
+  margin-bottom: 1.5em;
+}
+
+.latestArticles {
+  padding: 5em 0;
+  background: var(--lightGray);
+}
+.latestArticles .title__h1 {
+  text-align: center;
+}
+.latestArticles__grid {
+  display: grid;
+  row-gap: 2em;
+}
+.latestArticles__item {
+  border-radius: 0.5em;
+  overflow: hidden;
+  background: var(--white);
+}
+.latestArticles__item-content {
+  padding: 1.8em;
+}
+.latestArticles__item .copy {
+  color: var(--grayBlue);
+}
+.latestArticles__item small {
+  color: var(--grayBlue);
+  margin-bottom: 1em;
+  display: inline-block;
+}
+.latestArticles__item img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.footer {
+  border: 1px solid red;
+}
+
+:root {
+  --grayBlue: hsl(233, 8%, 62%);
+  --gray: hsl(220, 16%, 96%);
+  --lightGray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --darkBlue: hsl(233, 26%, 24%);
+  --limeGreen: hsl(136, 65%, 51%);
+  --rightCyan: hsl(192, 70%, 51%);
+  --wrapperSpace: 1.5em;
+  font-size: 16px;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   margin: 0;
+  color: var(--grayBlue);
+}
+
+.wrapper {
+  padding: 0 var(--wrapperSpace);
+}
+
+.copy {
+  line-height: 1.6;
+  font-size: 0.9em;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.title__h1 {
+  font-size: 2.5em;
+  color: var(--darkBlue);
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.title__h2 {
+  font-size: 2.5em;
+  color: var(--darkBlue);
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.title__h3 {
+  font-size: 2.5em;
+  color: var(--darkBlue);
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.8em 1.9em;
+  font-size: 1em;
+  border-radius: 1.5em;
+  color: var(--white);
+  background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--rightCyan) 100%);
 }
 
 /*# sourceMappingURL=estilos.css.map */
