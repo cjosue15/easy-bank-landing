@@ -90,8 +90,12 @@ body {
 .menu {
     width: 40px;
     height: 40px;
-    background: url(../..../mages/icon-hamburger.svg) no-repeat center;
+    background: url(../images/icon-hamburger.svg) no-repeat center;
     display: block;
+}
+
+nav.active + .menu {
+    background: url(../images/icon-close.svg) no-repeat center;
 }
 
 .why {
