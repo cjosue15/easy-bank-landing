@@ -81,8 +81,8 @@ body {
     height: 300px;
     margin: 0 calc(-1 * var(--wrapperSpace));
     /* margin: 0 -1.5em; */
-    background: url('../../static/images/image-mockups.png') center bottom no-repeat,
-        url('../../static/images/bg-intro-mobile.svg') center no-repeat;
+    background: url('../..../mages/image-mockups.png') center bottom no-repeat,
+        url('../..../mages/bg-intro-mobile.svg') center no-repeat;
     background-size: 345px, cover;
     margin-bottom: 1em;
 }
@@ -90,7 +90,7 @@ body {
 .menu {
     width: 40px;
     height: 40px;
-    background: url(../../static/images/icon-hamburger.svg) no-repeat center;
+    background: url(../..../mages/icon-hamburger.svg) no-repeat center;
     display: block;
 }
 
@@ -199,23 +199,23 @@ body {
 }
 
 .footer__icons-facebook {
-    background: url(/static/images/icon-facebook.svg);
+    background: url(../mages/icon-facebook.svg);
 }
 
 .footer__icons-youtube {
-    background: url(/static/images/icon-youtube.svg);
+    background: url(../mages/icon-youtube.svg);
 }
 
 .footer__icons-twitter {
-    background: url(/static/images/icon-twitter.svg);
+    background: url(../mages/icon-twitter.svg);
 }
 
 .footer__icons-instagram {
-    background: url(/static/images/icon-instagram.svg);
+    background: url(../mages/icon-instagram.svg);
 }
 
 .footer__icons-pinterest {
-    background: url(/static/images/icon-pinterest.svg);
+    background: url(../mages/icon-pinterest.svg);
 }
 
 .footer__copyright {
@@ -398,7 +398,7 @@ nav.active ul li:last-child {
     }
 
     .hero {
-        background: url(/static//images//bg-intro-desktop.svg) no-repeat;
+        background: url(../images//bg-intro-desktop.svg) no-repeat;
         background-position: left 650px top -290px;
         background-size: cover;
     }
