@@ -386,6 +386,7 @@ nav.active ul li:last-child {
     .header-content nav,
     .header-content a {
         display: block;
+        opacity: 1;
     }
 }
 
