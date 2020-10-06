@@ -199,23 +199,23 @@ body {
 }
 
 .footer__icons-facebook {
-    background: url(../mages/icon-facebook.svg);
+    background: url(../images/icon-facebook.svg);
 }
 
 .footer__icons-youtube {
-    background: url(../mages/icon-youtube.svg);
+    background: url(../images/icon-youtube.svg);
 }
 
 .footer__icons-twitter {
-    background: url(../mages/icon-twitter.svg);
+    background: url(../images/icon-twitter.svg);
 }
 
 .footer__icons-instagram {
-    background: url(../mages/icon-instagram.svg);
+    background: url(../images/icon-instagram.svg);
 }
 
 .footer__icons-pinterest {
-    background: url(../mages/icon-pinterest.svg);
+    background: url(../images/icon-pinterest.svg);
 }
 
 .footer__copyright {
@@ -398,7 +398,7 @@ nav.active ul li:last-child {
     }
 
     .hero {
-        background: url(../images//bg-intro-desktop.svg) no-repeat;
+        background: url(../images/bg-intro-desktop.svg) no-repeat;
         background-position: left 650px top -290px;
         background-size: cover;
     }
